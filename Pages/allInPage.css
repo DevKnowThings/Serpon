@@ -1,0 +1,20 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: #327c45;
+    margin-top: 250px;
+    text-align: center;
+    padding: 25px;
+    color: #111;
+}
+
+div kbd code {
+    font-size: 20px;
+}
