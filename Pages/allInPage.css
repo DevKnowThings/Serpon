@@ -2,19 +2,21 @@ body {
     background-color: #111;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
+}
+
+div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div {
+kbd {
+    flex-basis: 28%;
+    margin: 205px auto;
+    align-self: center;
     background-color: #327c45;
-    margin-top: 250px;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     color: #111;
-}
-
-div kbd code {
     font-size: 20px;
 }
